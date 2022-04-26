@@ -49,7 +49,7 @@ class App:
         self.rat_limit["anchor"] = "w"
         self.rat_limit["justify"] = "left"
         self.rat_limit["text"] = "Enter ratio limit: "
-        self.rat_limit.place(x=10, y=20, width=117, height=30)
+        self.rat_limit.place(x=10, y=20, width=120, height=30)
 
         req_label = tk.Label(root)
         ft = tkFont.Font(family='Times', size=14)
@@ -59,7 +59,7 @@ class App:
         req_label["anchor"] = "w"
         req_label["justify"] = "left"
         req_label["text"] = "Enter Requests: "
-        req_label.place(x=10, y=60, width=117, height=30)
+        req_label.place(x=10, y=60, width=120, height=30)
 
         lim_label = tk.Label(root)
         ft = tkFont.Font(family='Times', size=14)
@@ -171,3 +171,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
     root.mainloop()
+
